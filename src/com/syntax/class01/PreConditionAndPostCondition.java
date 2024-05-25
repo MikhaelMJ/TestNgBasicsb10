@@ -1,10 +1,18 @@
 package com.syntax.class01;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class PreConditionAndPostCondition {
+
+    @BeforeClass
+    public void beforeClass(){
+        System.out.println("перед уроком");
+
+    }
+    @AfterClass
+    public void afterClass(){
+        System.out.println("после класса");
+    }
 
 
     @BeforeMethod

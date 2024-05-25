@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6614581-e338-46de-8b7e-afe185988573" name="Changes" comment="" />
+    <list default="true" id="e6614581-e338-46de-8b7e-afe185988573" name="Changes" comment="Class01">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/01" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/PreConditionAndPostCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/PreConditionAndPostCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class01/01" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class01/01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class01/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class01/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class01/PreConditionAndPostCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class01/PreConditionAndPostCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class01/TestngClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class01/TestngClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2gpRMubZz6eoxTc2QJ7os0qGrKk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,8 +45,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.validLogin">
-    <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Assertion.validationOfTitle">
+    <configuration name="Assertion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgBasicsb10" />
       <extension name="coverage">
         <pattern>
@@ -44,7 +55,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.syntax.class01" />
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class01.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class01.Assertion" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -52,7 +63,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Assertion.validationOfTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgBasicsb10" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +72,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.syntax.class01" />
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class01.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class01.Assertion" />
+      <option name="METHOD_NAME" value="validationOfTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -104,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestngClass" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PriorityAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgBasicsb10" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +125,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.syntax.class01" />
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class01.TestngClass" />
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class01.PriorityAttribute" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -123,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.validLogin" />
-        <item itemvalue="TestNG.LoginTest (1)" />
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.Assertion.validationOfTitle" />
+        <item itemvalue="TestNG.Assertion" />
+        <item itemvalue="TestNG.PriorityAttribute" />
         <item itemvalue="TestNG.PreConditionAndPostCondition" />
-        <item itemvalue="TestNG.TestngClass" />
+        <item itemvalue="TestNG.LoginTest.validLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +152,14 @@
       <option name="presentableId" value="Default" />
       <updated>1716392488555</updated>
     </task>
+    <task id="LOCAL-00001" summary="Class01">
+      <created>1716611289979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716611289979</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,5 +172,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Class01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class01" />
   </component>
 </project>

@@ -11,7 +11,7 @@ public class TestngClass {
 
     @Test()
     public void anotherMethod() {
-        System.out.println("Другой метод");//если установить анотацию, этот метод не выполнится
+        System.out.println("Другой метод");//если не установить анотацию, этот метод не выполнится
     }
 
     @Test//можно без скобок

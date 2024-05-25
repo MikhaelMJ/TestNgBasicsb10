@@ -25,6 +25,8 @@ public class LoginTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     }
 
+
+
     @Test()
     public void validLogin() throws InterruptedException {
         WebElement email = driver.findElement(By.id("index_email"));
@@ -41,10 +43,10 @@ public class LoginTest {
         }
     }
 
-   /* @Test()
+    @Test()
     public void testUS() {
         System.out.println("Test");
-    }*/
+    }
     @AfterMethod()
     public void tearDown(){
         if (driver != null) {
