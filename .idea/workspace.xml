@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6614581-e338-46de-8b7e-afe185988573" name="Changes" comment="Class01">
+    <list default="true" id="e6614581-e338-46de-8b7e-afe185988573" name="Changes" comment="Class01 assertion 1">
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/class02/DependsOnAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/class02/Groupings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/class02/SoftAssertion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/class02/SoftAssertion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/class02/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/class02/xml file" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testnggrup.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/01" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/PreConditionAndPostCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/PreConditionAndPostCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/TestngClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/TestngClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/syntax/class01/01" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class01/01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class01/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class01/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class01/PreConditionAndPostCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class01/PreConditionAndPostCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/class01/Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class01/Assertion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/syntax/class01/TestngClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class01/TestngClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +36,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="2gpRMubZz6eoxTc2QJ7os0qGrKk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -44,18 +59,40 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="TestNG.Assertion.validationOfTitle">
-    <configuration name="Assertion" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Михаил/TestNgBasicsb10/testng.xml">
+    <configuration name="C:/Users/Михаил/TestNgBasicsb10/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNgBasicsb10" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependsOnAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgBasicsb10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class01.*" />
+          <option name="PATTERN" value="com.syntax.class02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.syntax.class01" />
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class01.Assertion" />
+      <option name="PACKAGE_NAME" value="com.syntax.class02" />
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class02.DependsOnAttribute" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -63,17 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assertion.validationOfTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DependsOnAttribute.verifyLogout" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgBasicsb10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class01.*" />
+          <option name="PATTERN" value="com.syntax.class02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.syntax.class01" />
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class01.Assertion" />
-      <option name="METHOD_NAME" value="validationOfTitle" />
+      <option name="PACKAGE_NAME" value="com.syntax.class02" />
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class02.DependsOnAttribute" />
+      <option name="METHOD_NAME" value="verifyLogout" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,17 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.validLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SoftAssertion1.softAssertionVal" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgBasicsb10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class01.*" />
+          <option name="PATTERN" value="com.syntax.class02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.syntax.class01" />
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class01.LoginTest" />
-      <option name="METHOD_NAME" value="validLogin" />
+      <option name="PACKAGE_NAME" value="com.syntax.class02" />
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class02.SoftAssertion1" />
+      <option name="METHOD_NAME" value="softAssertionVal" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,16 +136,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreConditionAndPostCondition" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SoftAssertion2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgBasicsb10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.class01.*" />
+          <option name="PATTERN" value="com.syntax.class02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.syntax.class01" />
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class01.PreConditionAndPostCondition" />
+      <option name="PACKAGE_NAME" value="com.syntax.class02" />
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class02.SoftAssertion2" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -116,30 +153,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNgBasicsb10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.syntax.class01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.syntax.class01" />
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class01.PriorityAttribute" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/Михаил/TestNgBasicsb10/testng.xml" />
+      <item itemvalue="TestNG.DependsOnAttribute" />
+      <item itemvalue="TestNG.DependsOnAttribute.verifyLogout" />
+      <item itemvalue="TestNG.SoftAssertion1.softAssertionVal" />
+      <item itemvalue="TestNG.SoftAssertion2" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Assertion.validationOfTitle" />
-        <item itemvalue="TestNG.Assertion" />
-        <item itemvalue="TestNG.PriorityAttribute" />
-        <item itemvalue="TestNG.PreConditionAndPostCondition" />
-        <item itemvalue="TestNG.LoginTest.validLogin" />
+        <item itemvalue="TestNG.C:/Users/Михаил/TestNgBasicsb10/testng.xml" />
+        <item itemvalue="TestNG.DependsOnAttribute.verifyLogout" />
+        <item itemvalue="TestNG.DependsOnAttribute" />
+        <item itemvalue="TestNG.SoftAssertion2" />
+        <item itemvalue="TestNG.SoftAssertion1.softAssertionVal" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716611289979</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Class01">
+      <created>1716618444519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716618444519</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Class01 assertion 1">
+      <created>1716618783855</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716618783855</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +216,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Class01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class01" />
+    <MESSAGE value="Class01 assertion 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class01 assertion 1" />
   </component>
 </project>
