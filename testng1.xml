@@ -4,11 +4,11 @@
     <test verbose="2" preserve-order="true" name="Test">
         <groups>
             <run>
-                <include name="smoke"/>
+                <include name="smoke1"/>
             </run>
         </groups>
         <classes>
-            <class name="com.syntax.class02.Groupings"/>
+            <class name="com.syntax.class02.SoftAssertion1"/>
         </classes>
     </test>
 </suite>

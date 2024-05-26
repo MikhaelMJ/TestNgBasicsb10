@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6614581-e338-46de-8b7e-afe185988573" name="Changes" comment="Class01 assertion 1">
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class02/DependsOnAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class02/Groupings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class02/SoftAssertion1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class02/SoftAssertion2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class02/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/class02/xml file" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testnggrup.xml" afterDir="false" />
+    <list default="true" id="e6614581-e338-46de-8b7e-afe185988573" name="Changes" comment="Class02 XML File">
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/class03/03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/class03/DataProviderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/class03/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/class03/ParallelTestTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/CommonMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/01" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/TestngClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNgBasicsb10/com/syntax/class01/TestngClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/syntax/class01/01" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class01/01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class01/Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class01/Assertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/class01/TestngClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/class01/TestngClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testnggrup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testnggrup.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DataProviderDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNgBasicsb10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.syntax.class03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.syntax.class03" />
+      <option name="MAIN_CLASS_NAME" value="com.syntax.class03.DataProviderDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DependsOnAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgBasicsb10" />
       <extension name="coverage">
@@ -118,24 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftAssertion1.softAssertionVal" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNgBasicsb10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.syntax.class02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.syntax.class02" />
-      <option name="MAIN_CLASS_NAME" value="com.syntax.class02.SoftAssertion1" />
-      <option name="METHOD_NAME" value="softAssertionVal" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SoftAssertion2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNgBasicsb10" />
       <extension name="coverage">
@@ -157,16 +156,16 @@
       <item itemvalue="TestNG.C:/Users/Михаил/TestNgBasicsb10/testng.xml" />
       <item itemvalue="TestNG.DependsOnAttribute" />
       <item itemvalue="TestNG.DependsOnAttribute.verifyLogout" />
-      <item itemvalue="TestNG.SoftAssertion1.softAssertionVal" />
       <item itemvalue="TestNG.SoftAssertion2" />
+      <item itemvalue="TestNG.DataProviderDemo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Михаил/TestNgBasicsb10/testng.xml" />
+        <item itemvalue="TestNG.DataProviderDemo" />
         <item itemvalue="TestNG.DependsOnAttribute.verifyLogout" />
         <item itemvalue="TestNG.DependsOnAttribute" />
         <item itemvalue="TestNG.SoftAssertion2" />
-        <item itemvalue="TestNG.SoftAssertion1.softAssertionVal" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716618783855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Class02 XML File">
+      <created>1716638261082</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716638261082</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,10 +219,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Class01" />
     <MESSAGE value="Class01 assertion 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class01 assertion 1" />
+    <MESSAGE value="Class02 XML File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class02 XML File" />
   </component>
 </project>
